@@ -1,2 +1,2 @@
 # aws-codedeploy-linux
-AWS  - Implementing CodeDeploy
+This is a simple website that can be deployed using AWS Code Services
