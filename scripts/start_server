@@ -1,3 +1,5 @@
-#!/bin/bash
-service httpd start
+REM Install IIS
+
+c:\windows\sysnative\windowspowershell\v1.0\powershell.exe -command ImportModule -name ServerManager
+c:\windows\sysnative\windowspowershell\v1.0\powershell.exe -command Install-WindowsFeature WebServer
 
